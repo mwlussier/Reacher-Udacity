@@ -13,7 +13,7 @@ Each action is a vector with four values, corresponding to torque applicable to 
 
 In order to solve the environment, depending on the version, 
 
-1. Single agent: the agent must get an average score of +30 over 100 consecutive episodes.
-2. Multiple agents (20): the agents must get an overall average score of +30 over 100 consecutive episodes.
+1. *Single agent:* The agent must get an average score of +30 over 100 consecutive episodes.
+2. *Multiple agents (20):* The agents must get an overall average score of +30 over 100 consecutive episodes.
 
 
