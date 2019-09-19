@@ -13,7 +13,32 @@ Each action is a vector with four values, corresponding to torque applicable to 
 
 In order to solve the environment, depending on the version, 
 
-1. *Single agent:* The agent must get an average score of +30 over 100 consecutive episodes.
+1. *Single agent (1):* The agent must get an average score of +30 over 100 consecutive episodes.
 2. *Multiple agents (20):* The agents must get an overall average score of +30 over 100 consecutive episodes.
 
+------
+
+Follow the instructions below to be able to run the code.
+
+## Step 1: Clone the DRLND Repository
+Follow the instructions in the [DRLND GitHub](https://github.com/udacity/deep-reinforcement-learning#dependencies) repository to set up the Python environment. These instructions can be found in **README.md** at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
+
+## Step 2: Download the Unity Environment
+It is not needed to install Unity - you can download the environment provided by Udacity from one of the links below. You only need to select the environment that matches your operating system:
+
+*Version 1: One (1) Agent*
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+
+*Version 2: Twenty (20) Agents*
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+
+Then, place the file in the _p2_continuous-control/_ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+------
 
