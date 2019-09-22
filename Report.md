@@ -9,7 +9,7 @@ Furthermore, a soft update function is applied to both the actor and critic netw
 
 An addition to the DDPG agent is the implementation of a noise function (Ornstein-Uhlenbeck process) during the action stage. This addition makes the model exploration process more robust and is trivial for the performance of the DDPG. As we will see, the performance of the agent is highly dependent to the variation of the sigma factor in the noise function.
 
-The model architecture include for both actor and critic networks, three (3) fully connected layers and one (1) batch normalization layer between the first and the second layer. We are using a ReLu activation function for the two (2) first fully connected layers and a tangent function for the last one.
+The model architecture include for both actor and critic networks, three (3) fully connected layers and one (1) batch normalization layer between the first and the second layer. We are using a ReLu activation function for the two (2) first fully connected layers and a tangent function for the last one (only in the Actor network).
 
 The batch normalization is used to apply a normalization process to the outputs of a previous layer such as it's done during the preprocessing phase of the initial data. This should increase the stability of the network and accelerate the learning process. Batch normalization is used with its default variables.
 
