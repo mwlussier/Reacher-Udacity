@@ -15,6 +15,7 @@ The model architecture include for both actor and critic networks, three (3) ful
 
 The batch normalization is used to apply a normalization process to the outputs of a previous layer such as it's done during the preprocessing phase of the initial data. This should increase the stability of the network and accelerate the learning process. Batch normalization is used with its default variables.
 
+## Result
 The architecture is construct to resolve the first version which is the single agent environment.
 The best model achieved an average score of 37.21 after 400 episodes of training. It achieved an average score of 30.0 or more at best 200 episodes. The hyperparameters used are as follow:
 
@@ -43,6 +44,8 @@ As we can see in the following charts (which are only of 100 episodes for search
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma015.png)
 3. SIGMA: 0.10
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma010.png)
+4. SIGMA: 0.05
+![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma005.png)
 
 
 ## Future Work
