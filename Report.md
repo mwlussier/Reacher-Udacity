@@ -1,3 +1,5 @@
+## Reacher Project
+
 To resolve the project, a **Deep Deterministic Policy Gradient** (DDPG) was used.
 
 The main difference between a DDPG and a **Deep Q Network** (DQN) model is the implementation of a second network known as critic.
@@ -33,4 +35,16 @@ For both Actor and Critic network:
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_END.png)
 
 
-As we can see in the following charts, the performance of the model drastically improve by reducing the SIGMA parameter in the noise function. *(Only the SIGMA variable was changed)*
+As we can see in the following charts (which are only of 100 episodes for searching purpose), the performance of the model drastically improve by reducing the SIGMA parameter in the noise function. *(Only the SIGMA variable was changed)*
+
+1. SIGMA: 0.20
+![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma020.png)
+2. SIGMA: 0.15
+![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma015.png)
+3. SIGMA: 0.10
+![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma010.png)
+
+
+## Future Work
+* The natural amelioration would be to resolve the project using the multiple agents environment (20) with the same algorithm. 
+* Furthermore, we could implement algorithms like PPO, A3C and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience to resolve the second version.
