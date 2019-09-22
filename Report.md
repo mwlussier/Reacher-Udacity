@@ -39,12 +39,19 @@ For both Actor and Critic network:
 As we can see in the following charts (which are only of 100 episodes for searching purpose), the performance of the model drastically improve by reducing the SIGMA parameter in the noise function. *(Only the SIGMA variable was changed)*
 
 1. SIGMA: 0.20
+
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma020.png)
+
 2. SIGMA: 0.15
+
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma015.png)
+
 3. SIGMA: 0.10
+
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma010.png)
+
 4. SIGMA: 0.05
+
 ![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma005.png)
 
 
