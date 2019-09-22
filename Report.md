@@ -29,3 +29,8 @@ The best model achieved an average score of 37.21 after 400 episodes of training
 For both Actor and Critic network:
 * FC1_UNITS:    64
 * FC2_UNITS:    128
+
+![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_END.png)
+
+
+As we can see in the following charts, the performance of the model drastically improve by reducing the SIGMA parameter in the noise function. *(Only the SIGMA variable was changed)*
