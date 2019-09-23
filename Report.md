@@ -52,7 +52,7 @@ As we can see in the following charts (which are only of 100 episodes for search
 
 4. SIGMA: 0.05
 
-![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma005.png)
+![alt text](https://github.com/mwlussier/Reacher-Udacity/blob/master/images/reacher_ddpg_sigma005.PNG)
 
 
 ## Future Work
