@@ -42,3 +42,7 @@ Then, place the file in the _p2_continuous-control/_ folder in the DRLND GitHub 
 
 ------
 
+To train the agent, follow the steps in Reacher_Continuous_Control.ipynb
+
+To see the agent perform in the environment, follow the steps in Reacher_Continuous_Control_test.ipynb
+
